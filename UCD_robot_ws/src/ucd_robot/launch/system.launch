@@ -1,0 +1,8 @@
+<launch>
+
+    <node name="ucd_robot_node" pkg="ucd_robot" type="ucd_robot_node.py" output="screen"></node>    
+    <node name="grip_force_protocol_node" pkg="grip_force_protocol" type="grip_force_protocol_node.py" output="screen"></node>
+    <node name="gripper_node" pkg="gripper" type="gripper_node.py" output="screen"></node>
+    <node name="position_controller_node" pkg="gripper_position_controller" type="position_controller_node.py" output="screen"></node>    
+	
+</launch>

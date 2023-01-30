@@ -1,0 +1,8 @@
+prefix=/home/robot/UCD_robot_ws/install
+
+Name: gripper_position_controller
+Description: Description of gripper_position_controller
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: grip_force_protocol papillarray_ros_v1 std_msgs message_runtime
