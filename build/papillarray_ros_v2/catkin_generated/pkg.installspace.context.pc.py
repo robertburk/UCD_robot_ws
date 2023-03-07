@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "papillarray_ros_v2"
-PROJECT_SPACE_DIR = "/home/robot/UCD_robot_ws/install"
+PROJECT_SPACE_DIR = "/home/rob/UCD_robot_ws_v2/install"
 PROJECT_VERSION = "0.0.0"

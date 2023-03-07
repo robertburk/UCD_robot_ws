@@ -1,12 +1,12 @@
 
 "use strict";
 
-let StartSlipDetection = require('./StartSlipDetection.js')
-let StopSlipDetection = require('./StopSlipDetection.js')
 let BiasRequest = require('./BiasRequest.js')
+let StopSlipDetection = require('./StopSlipDetection.js')
+let StartSlipDetection = require('./StartSlipDetection.js')
 
 module.exports = {
-  StartSlipDetection: StartSlipDetection,
-  StopSlipDetection: StopSlipDetection,
   BiasRequest: BiasRequest,
+  StopSlipDetection: StopSlipDetection,
+  StartSlipDetection: StartSlipDetection,
 };

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/robot/UCD_robot_ws/devel/share/gennodejs/ros/ucd_robot/msg/DataState.js"
+  "/home/rob/UCD_robot_ws_v2/devel/share/gennodejs/ros/ucd_robot/msg/SystemState.js"
   "CMakeFiles/ucd_robot_generate_messages_nodejs"
 )
 

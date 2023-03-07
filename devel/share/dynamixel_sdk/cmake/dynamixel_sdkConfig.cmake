@@ -67,14 +67,14 @@ set(dynamixel_sdk_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(dynamixel_sdk_SOURCE_PREFIX /home/robot/UCD_robot_ws/src/DynamixelSDK/ros/dynamixel_sdk)
-  set(dynamixel_sdk_DEVEL_PREFIX /home/robot/UCD_robot_ws/devel)
+  set(dynamixel_sdk_SOURCE_PREFIX /home/rob/UCD_robot_ws_v2/src/DynamixelSDK/ros/dynamixel_sdk)
+  set(dynamixel_sdk_DEVEL_PREFIX /home/rob/UCD_robot_ws_v2/devel)
   set(dynamixel_sdk_INSTALL_PREFIX "")
   set(dynamixel_sdk_PREFIX ${dynamixel_sdk_DEVEL_PREFIX})
 else()
   set(dynamixel_sdk_SOURCE_PREFIX "")
   set(dynamixel_sdk_DEVEL_PREFIX "")
-  set(dynamixel_sdk_INSTALL_PREFIX /home/robot/UCD_robot_ws/install)
+  set(dynamixel_sdk_INSTALL_PREFIX /home/rob/UCD_robot_ws_v2/install)
   set(dynamixel_sdk_PREFIX ${dynamixel_sdk_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(dynamixel_sdk_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/robot/UCD_robot_ws/src/DynamixelSDK/ros/dynamixel_sdk/include " STREQUAL " ")
+if(NOT "/home/rob/UCD_robot_ws_v2/src/DynamixelSDK/ros/dynamixel_sdk/include " STREQUAL " ")
   set(dynamixel_sdk_INCLUDE_DIRS "")
-  set(_include_dirs "/home/robot/UCD_robot_ws/src/DynamixelSDK/ros/dynamixel_sdk/include")
+  set(_include_dirs "/home/rob/UCD_robot_ws_v2/src/DynamixelSDK/ros/dynamixel_sdk/include")
   if(NOT "https://github.com/ROBOTIS-GIT/DynamixelSDK/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ROBOTIS-GIT/DynamixelSDK/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/dynamixel_sdk " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/robot/UCD_robot_ws/src/DynamixelSDK/ros/dynamixel_sdk/include " ST
         message(FATAL_ERROR "Project 'dynamixel_sdk' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'dynamixel_sdk' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/robot/UCD_robot_ws/src/DynamixelSDK/ros/dynamixel_sdk/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'dynamixel_sdk' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/rob/UCD_robot_ws_v2/src/DynamixelSDK/ros/dynamixel_sdk/${idir}'.  ${_report}")
     endif()
     _list_append_unique(dynamixel_sdk_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/robot/UCD_robot_ws/devel/lib;/home/robot/UCD_robot_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/rob/UCD_robot_ws_v2/devel/lib;/home/rob/UCD_robot_ws_v2/devel/lib;/home/rob/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

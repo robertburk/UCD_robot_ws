@@ -1,8 +1,8 @@
-prefix=/home/robot/UCD_robot_ws/devel
+prefix=/home/rob/UCD_robot_ws_v2/devel
 
 Name: papillarray_ros_v2
 Description: Description of papillarray_ros_v2
 Version: 0.0.0
-Cflags: -I/home/robot/UCD_robot_ws/devel/include
+Cflags: -I/home/rob/UCD_robot_ws_v2/devel/include
 Libs: -L${prefix}/lib 
 Requires: 

@@ -1,2 +1,0 @@
-bool bias_state
-bool buffer_state

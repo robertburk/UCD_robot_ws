@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/robot/UCD_robot_ws/devel/share/common-lisp/ros/ucd_robot/msg/DataState.lisp"
+  "/home/rob/UCD_robot_ws_v2/devel/share/common-lisp/ros/ucd_robot/msg/SystemState.lisp"
   "CMakeFiles/ucd_robot_generate_messages_lisp"
 )
 

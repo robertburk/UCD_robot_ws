@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/robot/UCD_robot_ws/devel/share/roseus/ros/papillarray_ros_v2/manifest.l"
-  "/home/robot/UCD_robot_ws/devel/share/roseus/ros/papillarray_ros_v2/msg/PillarState.l"
-  "/home/robot/UCD_robot_ws/devel/share/roseus/ros/papillarray_ros_v2/msg/SensorState.l"
-  "/home/robot/UCD_robot_ws/devel/share/roseus/ros/papillarray_ros_v2/srv/BiasRequest.l"
-  "/home/robot/UCD_robot_ws/devel/share/roseus/ros/papillarray_ros_v2/srv/StartSlipDetection.l"
-  "/home/robot/UCD_robot_ws/devel/share/roseus/ros/papillarray_ros_v2/srv/StopSlipDetection.l"
+  "/home/rob/UCD_robot_ws_v2/devel/share/roseus/ros/papillarray_ros_v2/manifest.l"
+  "/home/rob/UCD_robot_ws_v2/devel/share/roseus/ros/papillarray_ros_v2/msg/PillarState.l"
+  "/home/rob/UCD_robot_ws_v2/devel/share/roseus/ros/papillarray_ros_v2/msg/SensorState.l"
+  "/home/rob/UCD_robot_ws_v2/devel/share/roseus/ros/papillarray_ros_v2/srv/BiasRequest.l"
+  "/home/rob/UCD_robot_ws_v2/devel/share/roseus/ros/papillarray_ros_v2/srv/StartSlipDetection.l"
+  "/home/rob/UCD_robot_ws_v2/devel/share/roseus/ros/papillarray_ros_v2/srv/StopSlipDetection.l"
   "CMakeFiles/papillarray_ros_v2_generate_messages_eus"
 )
 

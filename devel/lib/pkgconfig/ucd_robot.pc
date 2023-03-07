@@ -1,8 +1,8 @@
-prefix=/home/robot/UCD_robot_ws/devel
+prefix=/home/rob/UCD_robot_ws_v2/devel
 
 Name: ucd_robot
 Description: Description of ucd_robot
 Version: 0.0.0
-Cflags: -I/home/robot/UCD_robot_ws/devel/include
+Cflags: -I/home/rob/UCD_robot_ws_v2/devel/include
 Libs: -L${prefix}/lib 
-Requires: dynamixel_sdk message_runtime rospy std_msgs
+Requires: gripper rospy std_msgs message_runtime gripper

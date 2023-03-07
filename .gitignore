@@ -1,3 +1,6 @@
 papillarray_ros_v1
 papillarray_ros_v2
 DynamixelSDK
+src/realsense-ros/
+src/universal_robot/
+src/Universal_Robots_ROS_Driver/

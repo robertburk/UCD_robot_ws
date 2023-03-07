@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot/UCD_robot_ws/src/papillarray_ros_v2
+# Install script for directory: /home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot/UCD_robot_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/rob/UCD_robot_ws_v2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,63 +39,63 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/papillarray_ros_v2/msg" TYPE FILE FILES
-    "/home/robot/UCD_robot_ws/src/papillarray_ros_v2/msg/PillarState.msg"
-    "/home/robot/UCD_robot_ws/src/papillarray_ros_v2/msg/SensorState.msg"
+    "/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/msg/PillarState.msg"
+    "/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/msg/SensorState.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/papillarray_ros_v2/srv" TYPE FILE FILES
-    "/home/robot/UCD_robot_ws/src/papillarray_ros_v2/srv/StartSlipDetection.srv"
-    "/home/robot/UCD_robot_ws/src/papillarray_ros_v2/srv/StopSlipDetection.srv"
-    "/home/robot/UCD_robot_ws/src/papillarray_ros_v2/srv/BiasRequest.srv"
+    "/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/srv/StartSlipDetection.srv"
+    "/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/srv/StopSlipDetection.srv"
+    "/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/srv/BiasRequest.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/papillarray_ros_v2/cmake" TYPE FILE FILES "/home/robot/UCD_robot_ws/build/papillarray_ros_v2/catkin_generated/installspace/papillarray_ros_v2-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/papillarray_ros_v2/cmake" TYPE FILE FILES "/home/rob/UCD_robot_ws_v2/build/papillarray_ros_v2/catkin_generated/installspace/papillarray_ros_v2-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/robot/UCD_robot_ws/devel/include/papillarray_ros_v2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/rob/UCD_robot_ws_v2/devel/include/papillarray_ros_v2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/robot/UCD_robot_ws/devel/share/roseus/ros/papillarray_ros_v2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/rob/UCD_robot_ws_v2/devel/share/roseus/ros/papillarray_ros_v2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/robot/UCD_robot_ws/devel/share/common-lisp/ros/papillarray_ros_v2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/rob/UCD_robot_ws_v2/devel/share/common-lisp/ros/papillarray_ros_v2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/robot/UCD_robot_ws/devel/share/gennodejs/ros/papillarray_ros_v2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/rob/UCD_robot_ws_v2/devel/share/gennodejs/ros/papillarray_ros_v2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/robot/UCD_robot_ws/devel/lib/python3/dist-packages/papillarray_ros_v2")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/rob/UCD_robot_ws_v2/devel/lib/python3/dist-packages/papillarray_ros_v2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/robot/UCD_robot_ws/devel/lib/python3/dist-packages/papillarray_ros_v2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/rob/UCD_robot_ws_v2/devel/lib/python3/dist-packages/papillarray_ros_v2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robot/UCD_robot_ws/build/papillarray_ros_v2/catkin_generated/installspace/papillarray_ros_v2.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rob/UCD_robot_ws_v2/build/papillarray_ros_v2/catkin_generated/installspace/papillarray_ros_v2.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/papillarray_ros_v2/cmake" TYPE FILE FILES "/home/robot/UCD_robot_ws/build/papillarray_ros_v2/catkin_generated/installspace/papillarray_ros_v2-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/papillarray_ros_v2/cmake" TYPE FILE FILES "/home/rob/UCD_robot_ws_v2/build/papillarray_ros_v2/catkin_generated/installspace/papillarray_ros_v2-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/papillarray_ros_v2/cmake" TYPE FILE FILES
-    "/home/robot/UCD_robot_ws/build/papillarray_ros_v2/catkin_generated/installspace/papillarray_ros_v2Config.cmake"
-    "/home/robot/UCD_robot_ws/build/papillarray_ros_v2/catkin_generated/installspace/papillarray_ros_v2Config-version.cmake"
+    "/home/rob/UCD_robot_ws_v2/build/papillarray_ros_v2/catkin_generated/installspace/papillarray_ros_v2Config.cmake"
+    "/home/rob/UCD_robot_ws_v2/build/papillarray_ros_v2/catkin_generated/installspace/papillarray_ros_v2Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/papillarray_ros_v2" TYPE FILE FILES "/home/robot/UCD_robot_ws/src/papillarray_ros_v2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/papillarray_ros_v2" TYPE FILE FILES "/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/package.xml")
 endif()
 

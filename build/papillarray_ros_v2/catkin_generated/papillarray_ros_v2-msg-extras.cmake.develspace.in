@@ -1,2 +1,2 @@
-set(papillarray_ros_v2_MESSAGE_FILES "/home/robot/UCD_robot_ws/src/papillarray_ros_v2/msg/PillarState.msg;/home/robot/UCD_robot_ws/src/papillarray_ros_v2/msg/SensorState.msg")
-set(papillarray_ros_v2_SERVICE_FILES "/home/robot/UCD_robot_ws/src/papillarray_ros_v2/srv/StartSlipDetection.srv;/home/robot/UCD_robot_ws/src/papillarray_ros_v2/srv/StopSlipDetection.srv;/home/robot/UCD_robot_ws/src/papillarray_ros_v2/srv/BiasRequest.srv")
+set(papillarray_ros_v2_MESSAGE_FILES "/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/msg/PillarState.msg;/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/msg/SensorState.msg")
+set(papillarray_ros_v2_SERVICE_FILES "/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/srv/StartSlipDetection.srv;/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/srv/StopSlipDetection.srv;/home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2/srv/BiasRequest.srv")

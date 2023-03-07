@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/robot/UCD_robot_ws/devel/lib/papillarray_ros_v2/papillarray_ros_v2_node"
-  "/home/robot/UCD_robot_ws/devel/lib/papillarray_ros_v2/papillarray_ros_v2_node.pdb"
+  "/home/rob/UCD_robot_ws_v2/devel/lib/papillarray_ros_v2/papillarray_ros_v2_node"
+  "/home/rob/UCD_robot_ws_v2/devel/lib/papillarray_ros_v2/papillarray_ros_v2_node.pdb"
   "CMakeFiles/papillarray_ros_v2_node.dir/src/papillarray_ros_node.cpp.o"
 )
 

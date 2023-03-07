@@ -8,10 +8,10 @@ project(ucd_robot)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  dynamixel_sdk
-  message_generation
+  gripper
   rospy
   std_msgs
+  message_generation
 )
 
 ## System dependencies are found with CMake's conventions
@@ -50,7 +50,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  DataState.msg
+  SystemState.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -105,7 +105,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ucd_robot
- CATKIN_DEPENDS dynamixel_sdk message_runtime rospy std_msgs
+ CATKIN_DEPENDS gripper rospy std_msgs message_runtime gripper
 #  DEPENDS system_lib
 )
 

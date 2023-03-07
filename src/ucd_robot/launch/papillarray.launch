@@ -2,7 +2,8 @@
 	<node pkg="papillarray_ros_v2"
 	      name="papillarray_ros_v2_node"
 	      type="papillarray_ros_v2_node"
-	      output="screen">
+	      respawn="true"
+		  required="true">
 
 		<param name="hub_id" type="int" value="0"/>
 

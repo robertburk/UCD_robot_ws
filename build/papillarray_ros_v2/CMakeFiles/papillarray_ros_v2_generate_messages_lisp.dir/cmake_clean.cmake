@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/robot/UCD_robot_ws/devel/share/common-lisp/ros/papillarray_ros_v2/msg/PillarState.lisp"
-  "/home/robot/UCD_robot_ws/devel/share/common-lisp/ros/papillarray_ros_v2/msg/SensorState.lisp"
-  "/home/robot/UCD_robot_ws/devel/share/common-lisp/ros/papillarray_ros_v2/srv/BiasRequest.lisp"
-  "/home/robot/UCD_robot_ws/devel/share/common-lisp/ros/papillarray_ros_v2/srv/StartSlipDetection.lisp"
-  "/home/robot/UCD_robot_ws/devel/share/common-lisp/ros/papillarray_ros_v2/srv/StopSlipDetection.lisp"
+  "/home/rob/UCD_robot_ws_v2/devel/share/common-lisp/ros/papillarray_ros_v2/msg/PillarState.lisp"
+  "/home/rob/UCD_robot_ws_v2/devel/share/common-lisp/ros/papillarray_ros_v2/msg/SensorState.lisp"
+  "/home/rob/UCD_robot_ws_v2/devel/share/common-lisp/ros/papillarray_ros_v2/srv/BiasRequest.lisp"
+  "/home/rob/UCD_robot_ws_v2/devel/share/common-lisp/ros/papillarray_ros_v2/srv/StartSlipDetection.lisp"
+  "/home/rob/UCD_robot_ws_v2/devel/share/common-lisp/ros/papillarray_ros_v2/srv/StopSlipDetection.lisp"
   "CMakeFiles/papillarray_ros_v2_generate_messages_lisp"
 )
 

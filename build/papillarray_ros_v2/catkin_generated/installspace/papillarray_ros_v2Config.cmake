@@ -67,14 +67,14 @@ set(papillarray_ros_v2_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(papillarray_ros_v2_SOURCE_PREFIX /home/robot/UCD_robot_ws/src/papillarray_ros_v2)
-  set(papillarray_ros_v2_DEVEL_PREFIX /home/robot/UCD_robot_ws/devel)
+  set(papillarray_ros_v2_SOURCE_PREFIX /home/rob/UCD_robot_ws_v2/src/papillarray_ros_v2)
+  set(papillarray_ros_v2_DEVEL_PREFIX /home/rob/UCD_robot_ws_v2/devel)
   set(papillarray_ros_v2_INSTALL_PREFIX "")
   set(papillarray_ros_v2_PREFIX ${papillarray_ros_v2_DEVEL_PREFIX})
 else()
   set(papillarray_ros_v2_SOURCE_PREFIX "")
   set(papillarray_ros_v2_DEVEL_PREFIX "")
-  set(papillarray_ros_v2_INSTALL_PREFIX /home/robot/UCD_robot_ws/install)
+  set(papillarray_ros_v2_INSTALL_PREFIX /home/rob/UCD_robot_ws_v2/install)
   set(papillarray_ros_v2_PREFIX ${papillarray_ros_v2_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/robot/UCD_robot_ws/install/lib;/home/robot/UCD_robot_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/rob/UCD_robot_ws_v2/install/lib;/home/rob/UCD_robot_ws_v2/devel/lib;/home/rob/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

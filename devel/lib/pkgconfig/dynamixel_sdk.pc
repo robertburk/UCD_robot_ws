@@ -1,8 +1,8 @@
-prefix=/home/robot/UCD_robot_ws/devel
+prefix=/home/rob/UCD_robot_ws_v2/devel
 
 Name: dynamixel_sdk
 Description: Description of dynamixel_sdk
 Version: 3.7.51
-Cflags: -I/home/robot/UCD_robot_ws/src/DynamixelSDK/ros/dynamixel_sdk/include
+Cflags: -I/home/rob/UCD_robot_ws_v2/src/DynamixelSDK/ros/dynamixel_sdk/include
 Libs: -L${prefix}/lib -ldynamixel_sdk
 Requires: roscpp rospy

@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -67,7 +67,7 @@ struct SensorState_
    typedef int64_t _tus_type;
   _tus_type tus;
 
-   typedef std::vector< ::papillarray_ros_v2::PillarState_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::papillarray_ros_v2::PillarState_<ContainerAllocator> >::other >  _pillars_type;
+   typedef std::vector< ::papillarray_ros_v2::PillarState_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::papillarray_ros_v2::PillarState_<ContainerAllocator> >> _pillars_type;
   _pillars_type pillars;
 
    typedef float _gfX_type;

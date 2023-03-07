@@ -1,8 +1,8 @@
-prefix=/home/robot/UCD_robot_ws/devel
+prefix=/home/rob/UCD_robot_ws_v2/devel
 
 Name: dynamixel_sdk_examples
 Description: Description of dynamixel_sdk_examples
 Version: 3.7.51
-Cflags: -I/home/robot/UCD_robot_ws/devel/include
+Cflags: -I/home/rob/UCD_robot_ws_v2/devel/include
 Libs: -L${prefix}/lib 
 Requires: roscpp std_msgs dynamixel_sdk

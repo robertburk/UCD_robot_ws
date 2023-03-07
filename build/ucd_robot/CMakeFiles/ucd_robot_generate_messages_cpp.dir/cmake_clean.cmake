@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/robot/UCD_robot_ws/devel/include/ucd_robot/DataState.h"
+  "/home/rob/UCD_robot_ws_v2/devel/include/ucd_robot/SystemState.h"
   "CMakeFiles/ucd_robot_generate_messages_cpp"
 )
 

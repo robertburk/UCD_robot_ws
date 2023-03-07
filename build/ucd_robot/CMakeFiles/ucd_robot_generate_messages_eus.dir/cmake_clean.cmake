@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/robot/UCD_robot_ws/devel/share/roseus/ros/ucd_robot/manifest.l"
-  "/home/robot/UCD_robot_ws/devel/share/roseus/ros/ucd_robot/msg/DataState.l"
+  "/home/rob/UCD_robot_ws_v2/devel/share/roseus/ros/ucd_robot/manifest.l"
+  "/home/rob/UCD_robot_ws_v2/devel/share/roseus/ros/ucd_robot/msg/SystemState.l"
   "CMakeFiles/ucd_robot_generate_messages_eus"
 )
 
